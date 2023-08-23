@@ -17,6 +17,7 @@
 		0713A30A2A943F7D0067EAAE /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0713A3092A943F7D0067EAAE /* MapViewActionButton.swift */; };
 		0713A30E2A94416F0067EAAE /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0713A30D2A94416F0067EAAE /* LocationSearchView.swift */; };
 		0713A3102A94452E0067EAAE /* LocationSearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0713A30F2A94452E0067EAAE /* LocationSearchResultCell.swift */; };
+		0784EC262A958EBE00C58474 /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0784EC252A958EBE00C58474 /* LocationSearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		0713A3092A943F7D0067EAAE /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewActionButton.swift; sourceTree = "<group>"; };
 		0713A30D2A94416F0067EAAE /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
 		0713A30F2A94452E0067EAAE /* LocationSearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultCell.swift; sourceTree = "<group>"; };
+		0784EC252A958EBE00C58474 /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 		0713A30C2A9441530067EAAE /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				0784EC252A958EBE00C58474 /* LocationSearchViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0784EC262A958EBE00C58474 /* LocationSearchViewModel.swift in Sources */,
 				0713A30E2A94416F0067EAAE /* LocationSearchView.swift in Sources */,
 				0713A3042A93CFD40067EAAE /* LocationManager.swift in Sources */,
 				0713A2EC2A93CC140067EAAE /* Uber_SwiftUIApp.swift in Sources */,
