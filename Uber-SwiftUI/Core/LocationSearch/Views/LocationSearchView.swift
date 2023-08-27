@@ -55,7 +55,7 @@ struct LocationSearchView: View {
                         LocationSearchResultCell(title: result.title, subTitle: result.subtitle)
                             .onTapGesture {
                                 viewModel
-                                    .selectLocation(result.title)
+                                    .selectLocation(result)
                                 showLocationSearchView.toggle()
                                 
                             }
